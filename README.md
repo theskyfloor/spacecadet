@@ -2,7 +2,7 @@
 
 a field for padding and margin in a page builder
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/rocket.png)
 
 ## Requirements
 

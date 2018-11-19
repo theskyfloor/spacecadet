@@ -2,7 +2,7 @@
 
 a field for padding and margin in a page builder
 
-![Screenshot](resources/img/rocket.png)
+<img src="resources/img/rocket.png" width="124px"</img> 
 
 ## Requirements
 

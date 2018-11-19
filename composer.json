@@ -1,0 +1,43 @@
+{
+    "name": "theskyfloor/space-cadet",
+    "description": "a field for padding and margin in a page builder",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "space cadet"
+    ],
+    "support": {
+        "docs": "https://github.com/spacecadet/space-cadet/blob/master/README.md",
+        "issues": "https://github.com/spacecadet/space-cadet/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Miller",
+            "homepage": "http://www.theskyfloor.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "theskyfloor\\spacecadet\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Space Cadet",
+        "handle": "space-cadet",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/spacecadet/space-cadet/master/CHANGELOG.md",
+        "components": {
+            "spaceCadetService": "theskyfloor\\spacecadet\\services\\SpaceCadetService"
+        },
+        "class": "theskyfloor\\spacecadet\\SpaceCadet"
+    }
+}

@@ -1,0 +1,26 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Space Cadet plugin for Craft CMS
+ *
+ * SpaceCadetField Field Settings
+ *
+ * @author    Alan Miller
+ * @copyright Copyright (c) 2018 Alan Miller
+ * @link      http://www.theskyfloor.com
+ * @package   SpaceCadet
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("theskyfloor\\spacecadet\\assetbundles\\spacecadet\\SpaceCadetAsset") %}
+
+{{ forms.textField({
+    label: 'Some Attribute',
+    instructions: 'Enter some attribute here.',
+    id: 'someAttribute',
+    name: 'someAttribute',
+    value: field['someAttribute']})
+}}
